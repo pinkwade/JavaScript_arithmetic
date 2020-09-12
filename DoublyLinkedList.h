@@ -3,4 +3,5 @@
 #include <cstdarg>
 
 // DOUBLY LINKED LIST CLASS (Templated)
-te
+template <class T>
+cla
