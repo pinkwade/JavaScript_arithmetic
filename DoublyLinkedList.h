@@ -4,4 +4,4 @@
 
 // DOUBLY LINKED LIST CLASS (Templated)
 template <class T>
-cla
+class DoublyLink
