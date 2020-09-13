@@ -8,4 +8,6 @@ class DoublyLinkedList {
 private:
 
 	// NODE CLASS
-	c
+	class Node {
+	public:
+	
