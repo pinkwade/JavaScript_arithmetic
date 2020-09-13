@@ -5,4 +5,7 @@
 // DOUBLY LINKED LIST CLASS (Templated)
 template <class T>
 class DoublyLinkedList {
-priva
+private:
+
+	// NODE CLASS
+	c
