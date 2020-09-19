@@ -10,4 +10,5 @@ private:
 	// NODE CLASS
 	class Node {
 	public:
-	
+		T data;
+		Node *pNext;
