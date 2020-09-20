@@ -12,3 +12,4 @@ private:
 	public:
 		T data;
 		Node *pNext;
+		Node *
