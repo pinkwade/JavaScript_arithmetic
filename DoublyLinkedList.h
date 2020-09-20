@@ -12,4 +12,5 @@ private:
 	public:
 		T data;
 		Node *pNext;
-		Node *
+		Node *pPrev;
+		Node(T
