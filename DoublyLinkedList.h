@@ -13,4 +13,4 @@ private:
 		T data;
 		Node *pNext;
 		Node *pPrev;
-		Node(T item, Node *next = nu
+		Node(T item, Node *next = nullptr, Node *prev
