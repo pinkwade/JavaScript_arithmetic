@@ -13,4 +13,7 @@ private:
 		T data;
 		Node *pNext;
 		Node *pPrev;
-		Node(T item, Node *next = nullptr, Node *previous = nullptr) :data(item), pNext(next), pPrev(previ
+		Node(T item, Node *next = nullptr, Node *previous = nullptr) :data(item), pNext(next), pPrev(previous) {}
+	};
+
+	// GET N
