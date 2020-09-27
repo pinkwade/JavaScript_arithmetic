@@ -17,4 +17,5 @@ private:
 	};
 
 	// GET NODE METHOD
-	Node *getNode(unsigned p
+	Node *getNode(unsigned pos) const {
+		Node *curr
