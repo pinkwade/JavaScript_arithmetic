@@ -16,4 +16,5 @@ private:
 		Node(T item, Node *next = nullptr, Node *previous = nullptr) :data(item), pNext(next), pPrev(previous) {}
 	};
 
-	// GET N
+	// GET NODE METHOD
+	Node *get
