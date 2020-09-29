@@ -18,4 +18,5 @@ private:
 
 	// GET NODE METHOD
 	Node *getNode(unsigned pos) const {
-		Node *curr
+		Node *curr = pHead;
+	
