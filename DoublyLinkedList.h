@@ -19,4 +19,4 @@ private:
 	// GET NODE METHOD
 	Node *getNode(unsigned pos) const {
 		Node *curr = pHead;
-	
+		for (unsigned x = 1; x 
