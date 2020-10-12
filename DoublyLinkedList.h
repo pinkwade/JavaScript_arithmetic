@@ -20,4 +20,7 @@ private:
 	Node *getNode(unsigned pos) const {
 		Node *curr = pHead;
 		for (unsigned x = 1; x < pos; x++) curr = curr->pNext;
-		return cu
+		return curr;
+	}
+
+	// LI
