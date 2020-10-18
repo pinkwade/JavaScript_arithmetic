@@ -23,4 +23,4 @@ private:
 		return curr;
 	}
 
-	// LI
+	// LINKED LIST 
