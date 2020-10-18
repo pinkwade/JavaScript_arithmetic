@@ -24,4 +24,5 @@ private:
 	}
 
 	// LINKED LIST MEMBERS
-	unsi
+	unsigned size;
+	N
