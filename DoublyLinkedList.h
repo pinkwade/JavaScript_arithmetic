@@ -23,4 +23,5 @@ private:
 		return curr;
 	}
 
-	// LINKED LIST 
+	// LINKED LIST MEMBERS
+	unsi
