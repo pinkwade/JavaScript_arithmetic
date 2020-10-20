@@ -25,4 +25,5 @@ private:
 
 	// LINKED LIST MEMBERS
 	unsigned size;
-	N
+	Node *pHead;
+	Node *pTail
