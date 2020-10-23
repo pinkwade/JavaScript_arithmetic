@@ -29,4 +29,4 @@ private:
 	Node *pTail;
 
 public:
-	DoublyLinkedList() :size(
+	DoublyLinkedList() :size(0), pHead(nullptr),
