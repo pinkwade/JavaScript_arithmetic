@@ -26,4 +26,7 @@ private:
 	// LINKED LIST MEMBERS
 	unsigned size;
 	Node *pHead;
-	Node *pTail
+	Node *pTail;
+
+public:
+	Dou
