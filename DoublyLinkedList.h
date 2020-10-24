@@ -30,4 +30,6 @@ private:
 
 public:
 	DoublyLinkedList() :size(0), pHead(nullptr), pTail(nullptr) {}
-	~DoublyLinkedList(
+	~DoublyLinkedList()
+	{
+		Node *nex
