@@ -32,4 +32,4 @@ public:
 	DoublyLinkedList() :size(0), pHead(nullptr), pTail(nullptr) {}
 	~DoublyLinkedList()
 	{
-		Node *nex
+		Node *next, *curr = p
