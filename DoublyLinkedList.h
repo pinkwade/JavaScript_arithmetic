@@ -33,4 +33,4 @@ public:
 	~DoublyLinkedList()
 	{
 		Node *next, *curr = pHead;
-		
+		while (curr != nullptr
