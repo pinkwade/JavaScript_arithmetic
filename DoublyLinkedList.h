@@ -34,4 +34,5 @@ public:
 	{
 		Node *next, *curr = pHead;
 		while (curr != nullptr) {
-			next = cur
+			next = curr->pNext;
+			delete curr
