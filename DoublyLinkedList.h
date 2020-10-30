@@ -37,3 +37,7 @@ public:
 			next = curr->pNext;
 			delete curr;
 			curr = next;
+		}
+	}
+
+	/
