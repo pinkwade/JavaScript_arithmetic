@@ -41,3 +41,4 @@ public:
 	}
 
 	// IS EMPTY METHOD
+	bool isEmpty() c
