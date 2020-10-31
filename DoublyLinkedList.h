@@ -41,4 +41,4 @@ public:
 	}
 
 	// IS EMPTY METHOD
-	bool isEmpty() c
+	bool isEmpty() const { return size 
