@@ -43,4 +43,5 @@ public:
 	// IS EMPTY METHOD
 	bool isEmpty() const { return size == 0; }
 
-	// GET SIZ
+	// GET SIZE METHOD
+	unsigned
