@@ -44,4 +44,4 @@ public:
 	bool isEmpty() const { return size == 0; }
 
 	// GET SIZE METHOD
-	unsigned
+	unsigned getSize() const {
