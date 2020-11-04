@@ -47,4 +47,5 @@ public:
 	unsigned getSize() const { return size; }
 
 	// ADD HEAD 
-	void 
+	void addHead(T item) {
+		No
