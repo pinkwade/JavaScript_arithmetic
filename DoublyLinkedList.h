@@ -46,4 +46,5 @@ public:
 	// GET SIZE METHOD
 	unsigned getSize() const { return size; }
 
-	/
+	// ADD HEAD 
+	void 
