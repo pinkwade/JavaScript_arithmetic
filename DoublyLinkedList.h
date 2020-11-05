@@ -48,4 +48,4 @@ public:
 
 	// ADD HEAD 
 	void addHead(T item) {
-		Node *newNode =
+		Node *newNode = new Node(item, 
