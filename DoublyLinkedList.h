@@ -48,4 +48,6 @@ public:
 
 	// ADD HEAD 
 	void addHead(T item) {
-		Node *newNode = new Node(item, 
+		Node *newNode = new Node(item, pHead);
+
+		if (isE
