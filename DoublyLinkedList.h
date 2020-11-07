@@ -50,4 +50,4 @@ public:
 	void addHead(T item) {
 		Node *newNode = new Node(item, pHead);
 
-		if (isEmpty())		// if the list is em
+		if (isEmpty())		// if the list is empty then head is th
