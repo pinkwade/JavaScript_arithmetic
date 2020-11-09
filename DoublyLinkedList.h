@@ -52,4 +52,5 @@ public:
 
 		if (isEmpty())		// if the list is empty then head is thenew node and tail is the new node
 		{
-			pHead = ne
+			pHead = newNode;
+			pTail =
