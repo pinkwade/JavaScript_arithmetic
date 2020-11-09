@@ -50,4 +50,6 @@ public:
 	void addHead(T item) {
 		Node *newNode = new Node(item, pHead);
 
-		if (isEmpty())		// if the list is empty then head is thenew node and tail is the new no
+		if (isEmpty())		// if the list is empty then head is thenew node and tail is the new node
+		{
+			pHead = ne
