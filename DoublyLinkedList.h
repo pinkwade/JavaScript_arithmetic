@@ -55,4 +55,4 @@ public:
 			pHead = newNode;
 			pTail = pHead;
 		}
-		else     
+		else                // if list
