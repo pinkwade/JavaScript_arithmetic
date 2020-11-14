@@ -55,4 +55,4 @@ public:
 			pHead = newNode;
 			pTail = pHead;
 		}
-		else                // if list
+		else                // if list is not empty, we s
