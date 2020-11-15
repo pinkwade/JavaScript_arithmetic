@@ -55,4 +55,5 @@ public:
 			pHead = newNode;
 			pTail = pHead;
 		}
-		else                // if list is not empty, we set the next of the new node 
+		else                // if list is not empty, we set the next of the new node to the previous head
+	
