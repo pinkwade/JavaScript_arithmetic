@@ -56,4 +56,5 @@ public:
 			pTail = pHead;
 		}
 		else                // if list is not empty, we set the next of the new node to the previous head
-	
+		{
+			newNode->pNe
