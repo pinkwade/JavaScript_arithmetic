@@ -58,4 +58,5 @@ public:
 		else                // if list is not empty, we set the next of the new node to the previous head
 		{
 			newNode->pNext = pHead;
-			pHead->pPrev = ne
+			pHead->pPrev = newNode;
+			p
