@@ -59,4 +59,5 @@ public:
 		{
 			newNode->pNext = pHead;
 			pHead->pPrev = newNode;
-			p
+			pHead = newNode;
+			newN
