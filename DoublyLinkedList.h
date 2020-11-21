@@ -60,4 +60,4 @@ public:
 			newNode->pNext = pHead;
 			pHead->pPrev = newNode;
 			pHead = newNode;
-			newN
+			newNode->pPrev = nullptr;
