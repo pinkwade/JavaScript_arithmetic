@@ -61,3 +61,6 @@ public:
 			pHead->pPrev = newNode;
 			pHead = newNode;
 			newNode->pPrev = nullptr;
+		}
+		size++;
+	
