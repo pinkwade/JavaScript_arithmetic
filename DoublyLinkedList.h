@@ -66,4 +66,5 @@ public:
 	}
 
 	// ADD TAIL 
-	void addTail(T ite
+	void addTail(T item) {
+		Node *newT
