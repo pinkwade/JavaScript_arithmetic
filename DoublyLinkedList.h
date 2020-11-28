@@ -63,4 +63,6 @@ public:
 			newNode->pPrev = nullptr;
 		}
 		size++;
-	
+	}
+
+	// ADD TAIL
