@@ -65,4 +65,5 @@ public:
 		size++;
 	}
 
-	// ADD TAIL
+	// ADD TAIL 
+	void addTail(T ite
