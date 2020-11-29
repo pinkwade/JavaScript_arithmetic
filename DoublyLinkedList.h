@@ -67,4 +67,6 @@ public:
 
 	// ADD TAIL 
 	void addTail(T item) {
-		Node *newTailNode = new Node(item
+		Node *newTailNode = new Node(item, pHead);
+
+		if (i
