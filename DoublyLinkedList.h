@@ -69,4 +69,5 @@ public:
 	void addTail(T item) {
 		Node *newTailNode = new Node(item, pHead);
 
-		if (i
+		if (isEmpty()) {
+			pHea
