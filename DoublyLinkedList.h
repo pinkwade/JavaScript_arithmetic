@@ -70,4 +70,4 @@ public:
 		Node *newTailNode = new Node(item, pHead);
 
 		if (isEmpty()) {
-			pHea
+			pHead = newTailNode
