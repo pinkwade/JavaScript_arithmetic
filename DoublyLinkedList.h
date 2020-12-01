@@ -74,3 +74,4 @@ public:
 			pTail = pHead;
 		}
 		else {
+			newTailNode->pPrev = p
