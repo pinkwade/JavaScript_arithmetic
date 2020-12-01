@@ -72,3 +72,5 @@ public:
 		if (isEmpty()) {
 			pHead = newTailNode;
 			pTail = pHead;
+		}
+		else {
