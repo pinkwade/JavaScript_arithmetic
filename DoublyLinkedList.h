@@ -74,4 +74,5 @@ public:
 			pTail = pHead;
 		}
 		else {
-			newTailNode->pPrev = p
+			newTailNode->pPrev = pTail;
+			pTail->p
