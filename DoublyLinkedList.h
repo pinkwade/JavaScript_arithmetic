@@ -75,4 +75,7 @@ public:
 		}
 		else {
 			newTailNode->pPrev = pTail;
-			pTail->pNext = newTail
+			pTail->pNext = newTailNode;
+		}
+
+		pTail = newTa
