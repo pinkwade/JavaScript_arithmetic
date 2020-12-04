@@ -75,4 +75,4 @@ public:
 		}
 		else {
 			newTailNode->pPrev = pTail;
-			pTail->p
+			pTail->pNext = newTail
