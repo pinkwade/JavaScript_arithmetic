@@ -78,4 +78,5 @@ public:
 			pTail->pNext = newTailNode;
 		}
 
-		pTail = newTa
+		pTail = newTailNode;
+		pTail-
