@@ -79,4 +79,4 @@ public:
 		}
 
 		pTail = newTailNode;
-		pTail-
+		pTail->pNext = nullpt
