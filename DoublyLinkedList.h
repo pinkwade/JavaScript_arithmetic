@@ -79,4 +79,6 @@ public:
 		}
 
 		pTail = newTailNode;
-		pTail->pNext = nullpt
+		pTail->pNext = nullptr;
+		size++;
+	}
