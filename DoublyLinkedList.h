@@ -82,3 +82,6 @@ public:
 		pTail->pNext = nullptr;
 		size++;
 	}
+
+	// ADD
+	void add
