@@ -87,4 +87,6 @@ public:
 	void add(unsigned pos, T item) {
 		if (pos == 1)
 		{
-			addHead(it
+			addHead(item);
+		}
+		else
