@@ -84,4 +84,5 @@ public:
 	}
 
 	// ADD
-	void add(unsigned pos, T 
+	void add(unsigned pos, T item) {
+		if (pos ==
