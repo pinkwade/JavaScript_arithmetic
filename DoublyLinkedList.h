@@ -89,4 +89,4 @@ public:
 		{
 			addHead(item);
 		}
-		else
+		else if (pos == size + 1
