@@ -89,4 +89,6 @@ public:
 		{
 			addHead(item);
 		}
-		else if (pos == size + 1
+		else if (pos == size + 1)
+		{
+			addTail(item);
