@@ -92,3 +92,8 @@ public:
 		else if (pos == size + 1)
 		{
 			addTail(item);
+		}
+		else
+		{
+
+	
