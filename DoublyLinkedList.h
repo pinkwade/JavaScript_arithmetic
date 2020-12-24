@@ -96,4 +96,4 @@ public:
 		else
 		{
 
-	
+			Node *prev = getN
