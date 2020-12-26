@@ -97,3 +97,4 @@ public:
 		{
 
 			Node *prev = getNode(pos - 1);
+			Node *next = getN
