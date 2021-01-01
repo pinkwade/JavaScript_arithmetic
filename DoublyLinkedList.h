@@ -98,4 +98,4 @@ public:
 
 			Node *prev = getNode(pos - 1);
 			Node *next = getNode(pos);
-			Node *newNode = n
+			Node *newNode = new Node(item)
