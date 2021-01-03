@@ -100,3 +100,4 @@ public:
 			Node *next = getNode(pos);
 			Node *newNode = new Node(item);
 			prev->pNext = newNode;
+			next->pPrev 
