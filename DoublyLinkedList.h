@@ -103,4 +103,6 @@ public:
 			next->pPrev = newNode;
 
 			newNode->pPrev = prev;
-			newNode->pNe
+			newNode->pNext = next;
+
+		
