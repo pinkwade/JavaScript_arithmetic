@@ -110,4 +110,6 @@ public:
 	}
 
 	// RETRIEVE HEAD
-	T retrieveHead() co
+	T retrieveHead() const
+	{
+		return pHead-
