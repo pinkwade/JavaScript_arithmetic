@@ -107,4 +107,7 @@ public:
 
 			size++;
 		}
-	
+	}
+
+	// RETRIEVE HEAD
+	T re
