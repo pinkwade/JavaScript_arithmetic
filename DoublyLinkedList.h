@@ -105,4 +105,6 @@ public:
 			newNode->pPrev = prev;
 			newNode->pNext = next;
 
-		
+			size++;
+		}
+	
