@@ -112,4 +112,7 @@ public:
 	// RETRIEVE HEAD
 	T retrieveHead() const
 	{
-		return pHead-
+		return pHead->data;
+	}
+
+	// RE
