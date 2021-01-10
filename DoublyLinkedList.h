@@ -116,4 +116,6 @@ public:
 	}
 
 	// RETRIEVE TAIL
-	T retrieveTail()
+	T retrieveTail() const
+	{
+		return p
