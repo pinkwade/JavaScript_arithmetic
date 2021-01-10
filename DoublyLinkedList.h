@@ -116,3 +116,4 @@ public:
 	}
 
 	// RETRIEVE TAIL
+	T retrieveTail()
