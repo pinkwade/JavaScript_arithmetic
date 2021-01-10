@@ -115,4 +115,4 @@ public:
 		return pHead->data;
 	}
 
-	// RE
+	// RETRIEVE TAIL
