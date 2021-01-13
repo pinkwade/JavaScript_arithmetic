@@ -121,4 +121,5 @@ public:
 		return pTail->data;
 	}
 
-	// RETRIEVE (No clue how th
+	// RETRIEVE (No clue how this method works)
+	T 
