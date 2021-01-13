@@ -122,4 +122,6 @@ public:
 	}
 
 	// RETRIEVE (No clue how this method works)
-	T retrieve(unsigned pos) c
+	T retrieve(unsigned pos) const
+	{
+		ret
