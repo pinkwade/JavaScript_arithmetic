@@ -125,4 +125,4 @@ public:
 	T retrieve(unsigned pos) const
 	{
 		return
-			(pos == si
+			(pos == size ? retrieveTail(
