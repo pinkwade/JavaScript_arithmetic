@@ -126,3 +126,6 @@ public:
 	{
 		return
 			(pos == size ? retrieveTail() : getNode(pos)->data);
+	}
+
+	// REAMOVE H
