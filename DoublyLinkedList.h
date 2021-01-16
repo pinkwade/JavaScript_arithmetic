@@ -124,4 +124,5 @@ public:
 	// RETRIEVE (No clue how this method works)
 	T retrieve(unsigned pos) const
 	{
-		ret
+		return
+			(pos == si
