@@ -125,4 +125,4 @@ public:
 	T retrieve(unsigned pos) const
 	{
 		return
-			(pos == size ? retrieveTail(
+			(pos == size ? retrieveTail() : getNode(pos)->data);
