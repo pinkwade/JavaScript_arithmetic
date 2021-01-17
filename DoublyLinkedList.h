@@ -129,4 +129,5 @@ public:
 	}
 
 	// REAMOVE HEAD
-	T removeH
+	T removeHead() {
+		// This is th
