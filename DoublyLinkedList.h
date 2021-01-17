@@ -130,4 +130,4 @@ public:
 
 	// REAMOVE HEAD
 	T removeHead() {
-		// This is th
+		// This is the data value that we
