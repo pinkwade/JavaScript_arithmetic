@@ -128,4 +128,5 @@ public:
 			(pos == size ? retrieveTail() : getNode(pos)->data);
 	}
 
-	// REAMOVE H
+	// REAMOVE HEAD
+	T removeH
