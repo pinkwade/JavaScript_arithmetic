@@ -130,4 +130,5 @@ public:
 
 	// REAMOVE HEAD
 	T removeHead() {
-		// This is the data value that we
+		// This is the data value that we are returning
+		T ret
