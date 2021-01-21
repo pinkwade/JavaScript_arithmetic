@@ -131,4 +131,4 @@ public:
 	// REAMOVE HEAD
 	T removeHead() {
 		// This is the data value that we are returning
-		T ret
+		T returnData = pHead->da
