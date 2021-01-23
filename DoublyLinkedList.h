@@ -133,4 +133,4 @@ public:
 		// This is the data value that we are returning
 		T returnData = pHead->data;
 
-		// If pHead 
+		// If pHead contains something a
