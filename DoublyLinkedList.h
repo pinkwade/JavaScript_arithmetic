@@ -134,4 +134,5 @@ public:
 		T returnData = pHead->data;
 
 		// If pHead contains something aka points to something
-		if (pHead != NU
+		if (pHead != NULL) {
+			// Get 
