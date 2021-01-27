@@ -135,4 +135,4 @@ public:
 
 		// If pHead contains something aka points to something
 		if (pHead != NULL) {
-			// Get 
+			// Get the next node to h
