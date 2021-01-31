@@ -135,4 +135,5 @@ public:
 
 		// If pHead contains something aka points to something
 		if (pHead != NULL) {
-			// Get the next node to h
+			// Get the next node to head
+			Node *nextNode = pHea
