@@ -138,4 +138,4 @@ public:
 			// Get the next node to head
 			Node *nextNode = pHead->pNext;
 
-			// If next node is not 
+			// If next node is not equal to null
