@@ -139,4 +139,5 @@ public:
 			Node *nextNode = pHead->pNext;
 
 			// If next node is not equal to null then
-			if (nextNode != 
+			if (nextNode != NULL) {
+				/
