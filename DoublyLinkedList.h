@@ -140,4 +140,4 @@ public:
 
 			// If next node is not equal to null then
 			if (nextNode != NULL) {
-				/
+				// We set the Nex
