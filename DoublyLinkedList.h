@@ -141,4 +141,5 @@ public:
 			// If next node is not equal to null then
 			if (nextNode != NULL) {
 				// We set the Nextnode prev to be a nullptr
-				nextNode->pPrev = nullptr
+				nextNode->pPrev = nullptr;
+				// Set the he
