@@ -142,4 +142,5 @@ public:
 			if (nextNode != NULL) {
 				// We set the Nextnode prev to be a nullptr
 				nextNode->pPrev = nullptr;
-				// Set the head to be the nextnode that was previously the previous of 
+				// Set the head to be the nextnode that was previously the previous of the head
+				dele
