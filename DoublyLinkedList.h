@@ -148,4 +148,4 @@ public:
 			}
 		}
 
-		// If the head is
+		// If the head is null then the ptail i
