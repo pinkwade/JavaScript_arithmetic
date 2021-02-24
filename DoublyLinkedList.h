@@ -146,4 +146,6 @@ public:
 				delete pHead;		// I dont think that this is necessary
 				pHead = nextNode;
 			}
-		
+		}
+
+		// If the head is
