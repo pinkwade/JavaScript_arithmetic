@@ -148,4 +148,4 @@ public:
 			}
 		}
 
-		// If the head is null then the ptail i
+		// If the head is null then the ptail is also going to be se
