@@ -149,4 +149,6 @@ public:
 		}
 
 		// If the head is null then the ptail is also going to be set to null
-		if (pHead == nullptr) pT
+		if (pHead == nullptr) pTail = nullptr;
+
+	
