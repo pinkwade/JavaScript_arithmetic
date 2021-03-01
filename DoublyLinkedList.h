@@ -151,4 +151,4 @@ public:
 		// If the head is null then the ptail is also going to be set to null
 		if (pHead == nullptr) pTail = nullptr;
 
-	
+		// Decrementi
