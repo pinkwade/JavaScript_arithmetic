@@ -154,4 +154,4 @@ public:
 		// Decrementing the size of the list
 		size--;
 
-		// If the
+		// If the doubly link
