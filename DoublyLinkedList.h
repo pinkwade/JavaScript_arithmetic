@@ -154,4 +154,4 @@ public:
 		// Decrementing the size of the list
 		size--;
 
-		// If the doubly link
+		// If the doubly linked list is empty then set h
