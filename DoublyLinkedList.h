@@ -160,3 +160,4 @@ public:
 			pTail = nullptr;
 		}
 
+		// Return the 
