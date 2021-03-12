@@ -156,4 +156,5 @@ public:
 
 		// If the doubly linked list is empty then set head and tail to empty
 		if (getSize() == 0) {
-			pHead = 
+			pHead = nullptr;
+			pT
