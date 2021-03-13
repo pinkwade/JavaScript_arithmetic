@@ -160,4 +160,4 @@ public:
 			pTail = nullptr;
 		}
 
-		// Return the 
+		// Return the data value th
