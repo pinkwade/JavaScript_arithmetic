@@ -160,4 +160,4 @@ public:
 			pTail = nullptr;
 		}
 
-		// Return the data value th
+		// Return the data value that was in the destroye
