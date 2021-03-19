@@ -164,4 +164,5 @@ public:
 		return returnData;
 	}
 
-	// REMOVE T
+	// REMOVE TAIL 
+	T removeTail() 
