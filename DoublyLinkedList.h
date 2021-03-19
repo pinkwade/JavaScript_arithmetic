@@ -162,3 +162,6 @@ public:
 
 		// Return the data value that was in the destroyed node (destroyed head)
 		return returnData;
+	}
+
+	// REMOVE T
