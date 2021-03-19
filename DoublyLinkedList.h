@@ -166,4 +166,6 @@ public:
 
 	// REMOVE TAIL 
 	T removeTail() {
-		T returnData = 
+		T returnData = pTail->data;
+
+		// If th
