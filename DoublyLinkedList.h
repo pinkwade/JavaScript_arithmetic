@@ -165,4 +165,5 @@ public:
 	}
 
 	// REMOVE TAIL 
-	T removeTail() 
+	T removeTail() {
+		T returnData = 
