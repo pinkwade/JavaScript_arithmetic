@@ -168,4 +168,4 @@ public:
 	T removeTail() {
 		T returnData = pTail->data;
 
-		// If th
+		// If there is something in 
