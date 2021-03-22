@@ -171,4 +171,4 @@ public:
 		// If there is something in pTail do this
 		if (pTail != NULL)
 		{
-			Node
+			Node *previousToTail = pTail->p
