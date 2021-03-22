@@ -169,4 +169,6 @@ public:
 		T returnData = pTail->data;
 
 		// If there is something in pTail do this
-		i
+		if (pTail != NULL)
+		{
+			Node
