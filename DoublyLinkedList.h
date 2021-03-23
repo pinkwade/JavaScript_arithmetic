@@ -171,4 +171,5 @@ public:
 		// If there is something in pTail do this
 		if (pTail != NULL)
 		{
-			Node *previousToTail = pTail->pPrev;	// Get what comes before the
+			Node *previousToTail = pTail->pPrev;	// Get what comes before the tail
+			if (previou
