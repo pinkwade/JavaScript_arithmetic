@@ -171,4 +171,4 @@ public:
 		// If there is something in pTail do this
 		if (pTail != NULL)
 		{
-			Node *previousToTail = pTail->p
+			Node *previousToTail = pTail->pPrev;	// Get wha
