@@ -172,4 +172,4 @@ public:
 		if (pTail != NULL)
 		{
 			Node *previousToTail = pTail->pPrev;	// Get what comes before the tail
-			if (previousToTail != NULL)	
+			if (previousToTail != NULL)				// If what comes before t
