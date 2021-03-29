@@ -173,4 +173,4 @@ public:
 		{
 			Node *previousToTail = pTail->pPrev;	// Get what comes before the tail
 			if (previousToTail != NULL)				// If what comes before the tail is not null
-			{										// Set the previous of that to nu
+			{										// Set the previous of that to null since it is t
