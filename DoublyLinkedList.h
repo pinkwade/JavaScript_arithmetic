@@ -174,4 +174,4 @@ public:
 			Node *previousToTail = pTail->pPrev;	// Get what comes before the tail
 			if (previousToTail != NULL)				// If what comes before the tail is not null
 			{										// Set the previous of that to null since it is the new tail
-				previousToTail->pNext = nullptr;	// Delete
+				previousToTail->pNext = nullptr;	// Delete the old tail and set th
