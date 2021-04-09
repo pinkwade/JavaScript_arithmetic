@@ -179,3 +179,4 @@ public:
 				delete pTail;
 				pTail = previousToTail;
 			}
+			// If there 
