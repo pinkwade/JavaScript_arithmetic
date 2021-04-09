@@ -176,4 +176,5 @@ public:
 			{										// Set the previous of that to null since it is the new tail
 				previousToTail->pNext = nullptr;	// Delete the old tail and set the previous tail to be the new tail
 
-				d
+				delete pTail;
+				pTail 
