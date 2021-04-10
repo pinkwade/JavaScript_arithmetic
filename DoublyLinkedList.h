@@ -179,4 +179,5 @@ public:
 				delete pTail;
 				pTail = previousToTail;
 			}
-			// If there is nothing in pTail do
+			// If there is nothing in pTail do the else
+			else
