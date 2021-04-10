@@ -181,3 +181,6 @@ public:
 			}
 			// If there is nothing in pTail do the else
 			else
+			{
+				pHead = nullptr;
+			}
