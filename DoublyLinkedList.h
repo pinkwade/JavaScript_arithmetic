@@ -184,3 +184,6 @@ public:
 			{
 				pHead = nullptr;
 			}
+		}
+
+		// Decrement s
