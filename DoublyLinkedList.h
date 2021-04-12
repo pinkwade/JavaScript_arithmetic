@@ -189,4 +189,4 @@ public:
 		// Decrement size
 		size--;
 
-		//
+		// Set everything
