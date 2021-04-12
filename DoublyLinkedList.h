@@ -186,4 +186,7 @@ public:
 			}
 		}
 
-		// Decrement s
+		// Decrement size
+		size--;
+
+		//
