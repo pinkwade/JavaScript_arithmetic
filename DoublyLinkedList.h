@@ -190,4 +190,6 @@ public:
 		size--;
 
 		// Set everything to null 
-		if (
+		if (getSize() == 0)
+		{
+			pHe
