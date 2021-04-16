@@ -192,4 +192,5 @@ public:
 		// Set everything to null 
 		if (getSize() == 0)
 		{
-			pHe
+			pHead = nullptr;
+			p
