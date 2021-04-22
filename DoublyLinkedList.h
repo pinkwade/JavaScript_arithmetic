@@ -194,3 +194,6 @@ public:
 		{
 			pHead = nullptr;
 			pTail = nullptr;
+		}
+
+		return returnDat
