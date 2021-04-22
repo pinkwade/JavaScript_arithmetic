@@ -193,4 +193,4 @@ public:
 		if (getSize() == 0)
 		{
 			pHead = nullptr;
-			p
+			pTail = nullptr;
