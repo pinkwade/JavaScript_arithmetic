@@ -196,4 +196,7 @@ public:
 			pTail = nullptr;
 		}
 
-		return returnDat
+		return returnData;
+	}
+
+	// REMOVE
