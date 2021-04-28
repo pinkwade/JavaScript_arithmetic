@@ -200,4 +200,5 @@ public:
 	}
 
 	// REMOVE
-	T remove(unsigned p
+	T remove(unsigned pos) {
+		// Basic 
