@@ -200,3 +200,4 @@ public:
 	}
 
 	// REMOVE
+	T remove(unsigned p
