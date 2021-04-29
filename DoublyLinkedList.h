@@ -201,4 +201,4 @@ public:
 
 	// REMOVE
 	T remove(unsigned pos) {
-		// Basic 
+		// Basic checks for beginning
