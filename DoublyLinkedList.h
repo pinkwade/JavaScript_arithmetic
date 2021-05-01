@@ -201,4 +201,5 @@ public:
 
 	// REMOVE
 	T remove(unsigned pos) {
-		// Basic checks for beginning
+		// Basic checks for beginning and end cases
+		if (po
