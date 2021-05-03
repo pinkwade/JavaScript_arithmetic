@@ -202,4 +202,5 @@ public:
 	// REMOVE
 	T remove(unsigned pos) {
 		// Basic checks for beginning and end cases
-		if (pos == 1) retu
+		if (pos == 1) return removeHead();
+		
