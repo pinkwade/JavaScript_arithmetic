@@ -203,4 +203,6 @@ public:
 	T remove(unsigned pos) {
 		// Basic checks for beginning and end cases
 		if (pos == 1) return removeHead();
-		if (pos == size) return removeTai
+		if (pos == size) return removeTail();
+
+		// Getting
