@@ -205,4 +205,4 @@ public:
 		if (pos == 1) return removeHead();
 		if (pos == size) return removeTail();
 
-		// Getting
+		// Getting the previo
