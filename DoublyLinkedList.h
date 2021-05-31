@@ -206,4 +206,4 @@ public:
 		if (pos == size) return removeTail();
 
 		// Getting the previous node of the current node, to the left of it
-		N
+		Node * prev = getNode(
