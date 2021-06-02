@@ -207,4 +207,4 @@ public:
 
 		// Getting the previous node of the current node, to the left of it
 		Node * prev = getNode(pos - 1);
-		// Getting th
+		// Getting the next node o
