@@ -209,4 +209,4 @@ public:
 		Node * prev = getNode(pos - 1);
 		// Getting the next node of the current node, to the right of it
 		Node * next = getNode(pos + 1);
-		// Getting the c
+		// Getting the current node. the mi
