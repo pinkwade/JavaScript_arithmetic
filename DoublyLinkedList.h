@@ -208,4 +208,5 @@ public:
 		// Getting the previous node of the current node, to the left of it
 		Node * prev = getNode(pos - 1);
 		// Getting the next node of the current node, to the right of it
-		Node * next = getNode(pos
+		Node * next = getNode(pos + 1);
+		// Getting the c
