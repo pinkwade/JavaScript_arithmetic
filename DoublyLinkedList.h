@@ -210,4 +210,5 @@ public:
 		// Getting the next node of the current node, to the right of it
 		Node * next = getNode(pos + 1);
 		// Getting the current node. the middle node that we want to remove
-		Node * cur
+		Node * curr = getNode(pos);
+
