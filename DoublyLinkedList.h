@@ -212,4 +212,4 @@ public:
 		// Getting the current node. the middle node that we want to remove
 		Node * curr = getNode(pos);
 
-		T ret = curr->data;		// Get the
+		T ret = curr->data;		// Get the data that we will r
