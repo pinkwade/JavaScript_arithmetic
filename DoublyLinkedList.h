@@ -214,4 +214,4 @@ public:
 
 		T ret = curr->data;		// Get the data that we will return
 
-		// 
+		// Set the previous 
