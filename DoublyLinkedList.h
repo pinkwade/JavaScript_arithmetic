@@ -214,4 +214,4 @@ public:
 
 		T ret = curr->data;		// Get the data that we will return
 
-		// Set the previous nodes next pointer to point to the next n
+		// Set the previous nodes next pointer to point to the next node of the curre
