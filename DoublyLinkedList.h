@@ -217,4 +217,4 @@ public:
 		// Set the previous nodes next pointer to point to the next node of the current node we deleted
 		prev->pNext = next;
 
-		// Set the next nodes previous pointer to point to 
+		// Set the next nodes previous pointer to point to the prevo
