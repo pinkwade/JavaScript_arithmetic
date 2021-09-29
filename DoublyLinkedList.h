@@ -218,4 +218,6 @@ public:
 		prev->pNext = next;
 
 		// Set the next nodes previous pointer to point to the prevoius node of the current node we deleted
-		next->pPr
+		next->pPrev = prev;
+
+		
