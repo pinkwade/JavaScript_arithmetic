@@ -220,4 +220,7 @@ public:
 		// Set the next nodes previous pointer to point to the prevoius node of the current node we deleted
 		next->pPrev = prev;
 
-		
+		// Decrement
+		size--;
+
+		de
