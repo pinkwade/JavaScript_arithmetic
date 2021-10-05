@@ -223,4 +223,5 @@ public:
 		// Decrement
 		size--;
 
-		de
+		delete curr;
+		retur
