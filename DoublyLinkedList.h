@@ -224,4 +224,7 @@ public:
 		size--;
 
 		delete curr;
-		retur
+		return ret;
+	}
+
+	// REPL
