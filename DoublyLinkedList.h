@@ -227,4 +227,5 @@ public:
 		return ret;
 	}
 
-	// REPL
+	// REPLACE
+	T replace(unsigned 
