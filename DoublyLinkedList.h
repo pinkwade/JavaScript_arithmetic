@@ -229,4 +229,4 @@ public:
 
 	// REPLACE
 	T replace(unsigned pos, T item) {
-		// 
+		// Get the current node
