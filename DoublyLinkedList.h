@@ -228,4 +228,5 @@ public:
 	}
 
 	// REPLACE
-	T replace(unsigned 
+	T replace(unsigned pos, T item) {
+		// 
