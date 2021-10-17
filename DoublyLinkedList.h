@@ -232,4 +232,4 @@ public:
 		// Get the current node
 		Node *currentNode = getNode(pos);
 
-		
+		// Return the 
