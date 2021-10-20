@@ -234,3 +234,5 @@ public:
 
 		// Return the current data value
 		T returnData = currentNode->data;
+
+		currentNode->d
