@@ -233,4 +233,4 @@ public:
 		Node *currentNode = getNode(pos);
 
 		// Return the current data value
-		T returnData = currentN
+		T returnData = currentNode->data;
