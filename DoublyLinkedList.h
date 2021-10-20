@@ -237,4 +237,7 @@ public:
 
 		currentNode->data = item;
 
-		r
+		return returnData;
+	}
+
+	/
