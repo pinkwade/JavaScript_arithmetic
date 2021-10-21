@@ -240,4 +240,4 @@ public:
 		return returnData;
 	}
 
-	/
+	// EQUALITY FUN
