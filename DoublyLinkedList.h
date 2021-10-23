@@ -243,3 +243,5 @@ public:
 	// EQUALITY FUNCTOR
 	class DFLT_EQ
 	{
+	public:
+		static b
