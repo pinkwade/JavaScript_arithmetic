@@ -244,4 +244,4 @@ public:
 	class DFLT_EQ
 	{
 	public:
-		static b
+		static bool compare(T a, T b)	
