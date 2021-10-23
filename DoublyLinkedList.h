@@ -240,4 +240,6 @@ public:
 		return returnData;
 	}
 
-	// EQUALITY FUN
+	// EQUALITY FUNCTOR
+	class DFLT_EQ
+	{
