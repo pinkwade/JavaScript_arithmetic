@@ -246,4 +246,6 @@ public:
 	public:
 		static bool compare(T a, T b)		// Compares the values
 		{
-			return
+			return a == b;
+		}
+	};
