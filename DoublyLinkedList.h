@@ -251,4 +251,5 @@ public:
 	};
 
 	// FIND 
-	template <class EQ = DFLT_
+	template <class EQ = DFLT_EQ>
+	int find(T ite
