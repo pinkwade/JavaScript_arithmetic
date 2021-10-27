@@ -251,4 +251,4 @@ public:
 	};
 
 	// FIND 
-	templat
+	template <class EQ = DFLT_
