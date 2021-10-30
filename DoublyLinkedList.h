@@ -252,4 +252,5 @@ public:
 
 	// FIND 
 	template <class EQ = DFLT_EQ>
-	int find(T ite
+	int find(T item) {
+		Node *cur
