@@ -254,4 +254,6 @@ public:
 	template <class EQ = DFLT_EQ>
 	int find(T item) {
 		Node *curr = pHead;
-		int 
+		int pos = 1;
+
+		// 
