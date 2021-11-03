@@ -256,4 +256,4 @@ public:
 		Node *curr = pHead;
 		int pos = 1;
 
-		// Looping through the lists node d
+		// Looping through the lists node data and comparing t
