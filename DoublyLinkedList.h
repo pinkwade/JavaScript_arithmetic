@@ -256,4 +256,5 @@ public:
 		Node *curr = pHead;
 		int pos = 1;
 
-		// Looping through the lists node data and comparing that to the value we would like to find, we return the position if we f
+		// Looping through the lists node data and comparing that to the value we would like to find, we return the position if we find it
+		whil
