@@ -257,4 +257,5 @@ public:
 		int pos = 1;
 
 		// Looping through the lists node data and comparing that to the value we would like to find, we return the position if we find it
-		whil
+		while (curr != nullptr) {
+	
