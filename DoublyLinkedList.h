@@ -259,4 +259,6 @@ public:
 		// Looping through the lists node data and comparing that to the value we would like to find, we return the position if we find it
 		while (curr != nullptr) {
 			if (EQ::compare(item, curr->data)) return pos;
-			curr
+			curr = curr->pNext;
+			pos++;
+		}
