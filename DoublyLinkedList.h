@@ -265,4 +265,5 @@ public:
 		return -1;
 	}
 
-	// ITERATOR CLAS
+	// ITERATOR CLASS
+	class Iterator {
