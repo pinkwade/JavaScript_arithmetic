@@ -267,3 +267,5 @@ public:
 
 	// ITERATOR CLASS
 	class Iterator {
+	private:
+		Node *m_
