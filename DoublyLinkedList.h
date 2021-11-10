@@ -262,3 +262,6 @@ public:
 			curr = curr->pNext;
 			pos++;
 		}
+		return -1;
+	}
+
