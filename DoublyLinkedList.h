@@ -270,4 +270,4 @@ public:
 	private:
 		Node *m_ptr;
 	public:
-		Iterato
+		Iterator(Node *ptr) :m_pt
