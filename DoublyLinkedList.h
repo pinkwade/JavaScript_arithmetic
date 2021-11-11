@@ -270,4 +270,5 @@ public:
 	private:
 		Node *m_ptr;
 	public:
-		Iterator(Node *ptr) :m_pt
+		Iterator(Node *ptr) :m_ptr(ptr) {}
+		void oper
