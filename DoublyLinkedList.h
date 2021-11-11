@@ -268,4 +268,6 @@ public:
 	// ITERATOR CLASS
 	class Iterator {
 	private:
-		Node *m_
+		Node *m_ptr;
+	public:
+		Iterato
