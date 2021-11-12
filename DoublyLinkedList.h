@@ -271,4 +271,4 @@ public:
 		Node *m_ptr;
 	public:
 		Iterator(Node *ptr) :m_ptr(ptr) {}
-		void oper
+		void operator++() { m_ptr = m_
