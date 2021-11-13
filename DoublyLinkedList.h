@@ -275,4 +275,5 @@ public:
 		void operator--()
 		{
 			m_ptr = m_ptr->pPrev;
-	
+		}
+		bool operator!=(co
