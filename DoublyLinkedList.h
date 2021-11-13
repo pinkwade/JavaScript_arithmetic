@@ -274,4 +274,5 @@ public:
 		void operator++() { m_ptr = m_ptr->pNext; }
 		void operator--()
 		{
-			m_ptr 
+			m_ptr = m_ptr->pPrev;
+	
