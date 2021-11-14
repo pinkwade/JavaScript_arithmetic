@@ -276,4 +276,4 @@ public:
 		{
 			m_ptr = m_ptr->pPrev;
 		}
-		bool operator!=(co
+		bool operator!=(const Iterator &
