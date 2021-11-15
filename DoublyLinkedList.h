@@ -276,4 +276,5 @@ public:
 		{
 			m_ptr = m_ptr->pPrev;
 		}
-		bool operator!=(const Iterator &other) { return (m_ptr == other.m_pt
+		bool operator!=(const Iterator &other) { return (m_ptr == other.m_ptr); }
+		T getVa
