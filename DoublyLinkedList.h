@@ -278,4 +278,4 @@ public:
 		}
 		bool operator!=(const Iterator &other) { return (m_ptr == other.m_ptr); }
 		T getValue() { return m_ptr->data; }
-		v
+		void setValue
