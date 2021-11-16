@@ -278,4 +278,8 @@ public:
 		}
 		bool operator!=(const Iterator &other) { return (m_ptr == other.m_ptr); }
 		T getValue() { return m_ptr->data; }
-		void setValue(T item) { m_ptr->data
+		void setValue(T item) { m_ptr->data = item; }
+	};
+
+	// LAST
+	Ite
