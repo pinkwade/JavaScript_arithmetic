@@ -282,4 +282,6 @@ public:
 	};
 
 	// LAST
-	Ite
+	Iterator last()
+	{
+		return
