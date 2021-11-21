@@ -288,4 +288,5 @@ public:
 	}
 
 	// BEGIN
-	I
+	Iterator begin()
+	{
