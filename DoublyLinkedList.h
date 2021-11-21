@@ -284,4 +284,5 @@ public:
 	// LAST
 	Iterator last()
 	{
-		return
+		return Iterator(pTail);
+	
