@@ -285,4 +285,7 @@ public:
 	Iterator last()
 	{
 		return Iterator(pTail);
-	
+	}
+
+	// BEGIN
+	I
