@@ -290,3 +290,4 @@ public:
 	// BEGIN
 	Iterator begin()
 	{
+		return Iterato
