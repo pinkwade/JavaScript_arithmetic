@@ -293,4 +293,5 @@ public:
 		return Iterator(pHead);
 	}
 
-	// 
+	// END
+	Iterator end()
