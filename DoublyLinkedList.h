@@ -290,4 +290,7 @@ public:
 	// BEGIN
 	Iterator begin()
 	{
-		return Iterato
+		return Iterator(pHead);
+	}
+
+	// 
