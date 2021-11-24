@@ -296,4 +296,11 @@ public:
 	// END
 	Iterator end()
 	{
-		return Iterator(nu
+		return Iterator(nullptr);
+	}
+
+
+
+
+
+	
