@@ -296,4 +296,4 @@ public:
 	// END
 	Iterator end()
 	{
-		retur
+		return Iterator(nu
