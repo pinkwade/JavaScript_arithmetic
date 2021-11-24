@@ -295,3 +295,5 @@ public:
 
 	// END
 	Iterator end()
+	{
+		retur
