@@ -303,4 +303,5 @@ public:
 
 
 
-	//COPIED VALIDATION S
+	//COPIED VALIDATION SHIT
+	bool validate(
