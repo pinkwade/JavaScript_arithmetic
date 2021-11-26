@@ -304,4 +304,4 @@ public:
 
 
 	//COPIED VALIDATION SHIT
-	bool validate(
+	bool validate(unsigned count, ...
