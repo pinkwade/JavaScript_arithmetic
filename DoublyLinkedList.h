@@ -306,4 +306,4 @@ public:
 	//COPIED VALIDATION SHIT
 	bool validate(unsigned count, ...) {
 		if (count != size) {
-			
+			cout << "validate F
