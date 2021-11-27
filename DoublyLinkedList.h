@@ -306,4 +306,5 @@ public:
 	//COPIED VALIDATION SHIT
 	bool validate(unsigned count, ...) {
 		if (count != size) {
-			cout << "validate FAIL:Size does not match!" << count << ":"
+			cout << "validate FAIL:Size does not match!" << count << ":" << size << endl;
+		
