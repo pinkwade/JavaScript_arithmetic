@@ -307,4 +307,6 @@ public:
 	bool validate(unsigned count, ...) {
 		if (count != size) {
 			cout << "validate FAIL:Size does not match!" << count << ":" << size << endl;
-		
+			return false;
+		}
+		//i
