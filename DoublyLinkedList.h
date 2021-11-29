@@ -309,4 +309,4 @@ public:
 			cout << "validate FAIL:Size does not match!" << count << ":" << size << endl;
 			return false;
 		}
-		//if empty list, ve
+		//if empty list, verify list varia
