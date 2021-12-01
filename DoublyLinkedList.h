@@ -310,4 +310,4 @@ public:
 			return false;
 		}
 		//if empty list, verify list variables (head/tail/size)
-		if (size ==
+		if (size == 0 || pHead == n
