@@ -310,4 +310,5 @@ public:
 			return false;
 		}
 		//if empty list, verify list variables (head/tail/size)
-		if (size == 0 || pHead == nullptr || pTail 
+		if (size == 0 || pHead == nullptr || pTail == nullptr) {
+			if (siz
