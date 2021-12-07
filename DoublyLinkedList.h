@@ -311,4 +311,4 @@ public:
 		}
 		//if empty list, verify list variables (head/tail/size)
 		if (size == 0 || pHead == nullptr || pTail == nullptr) {
-			if (size != 0 || pH
+			if (size != 0 || pHead != nullptr || pTai
