@@ -313,4 +313,5 @@ public:
 		if (size == 0 || pHead == nullptr || pTail == nullptr) {
 			if (size != 0 || pHead != nullptr || pTail != nullptr) {
 				cout << "validate FAIL:List empty/not empty mismatch!" << endl;
-				cout << "  Size:" << siz
+				cout << "  Size:" << size << endl;
+				co
