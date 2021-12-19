@@ -315,4 +315,4 @@ public:
 				cout << "validate FAIL:List empty/not empty mismatch!" << endl;
 				cout << "  Size:" << size << endl;
 				cout << "  pHead==nullptr:" << (pHead == nullptr) << endl;
-				
+				cout << "  pTail==n
