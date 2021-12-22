@@ -316,4 +316,6 @@ public:
 				cout << "  Size:" << size << endl;
 				cout << "  pHead==nullptr:" << (pHead == nullptr) << endl;
 				cout << "  pTail==nullptr:" << (pTail == nullptr) << endl;
-				return 
+				return false;
+			}
+		}
