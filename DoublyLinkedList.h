@@ -320,4 +320,4 @@ public:
 			}
 		}
 		else {
-			//Not
+			//Not an empty list, verify
