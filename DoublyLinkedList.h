@@ -320,4 +320,4 @@ public:
 			}
 		}
 		else {
-			//Not an empty list, verify
+			//Not an empty list, verify pHead->pPr
