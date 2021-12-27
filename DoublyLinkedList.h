@@ -320,4 +320,5 @@ public:
 			}
 		}
 		else {
-			//Not an empty list, verify pHead->pPrev != nullptr and pTail->pNext != n
+			//Not an empty list, verify pHead->pPrev != nullptr and pTail->pNext != nullptr
+			if (pHead->p
