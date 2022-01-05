@@ -322,4 +322,5 @@ public:
 		else {
 			//Not an empty list, verify pHead->pPrev != nullptr and pTail->pNext != nullptr
 			if (pHead->pPrev != nullptr) {
-				cout << "validate FAIL:pHead->pPrev != nullpt
+				cout << "validate FAIL:pHead->pPrev != nullptr!" << endl;
+				return
