@@ -323,4 +323,6 @@ public:
 			//Not an empty list, verify pHead->pPrev != nullptr and pTail->pNext != nullptr
 			if (pHead->pPrev != nullptr) {
 				cout << "validate FAIL:pHead->pPrev != nullptr!" << endl;
-				return
+				return false;
+			}
+			i
