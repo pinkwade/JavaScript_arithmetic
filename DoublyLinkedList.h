@@ -325,4 +325,5 @@ public:
 				cout << "validate FAIL:pHead->pPrev != nullptr!" << endl;
 				return false;
 			}
-			if (pTail->pNext !=
+			if (pTail->pNext != nullptr) {
+				c
