@@ -326,4 +326,4 @@ public:
 				return false;
 			}
 			if (pTail->pNext != nullptr) {
-				c
+				cout << "validate FAIL:
