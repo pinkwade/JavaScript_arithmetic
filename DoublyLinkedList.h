@@ -330,4 +330,5 @@ public:
 				return false;
 			}
 		}
-		//copy argume
+		//copy argument list to array
+		
