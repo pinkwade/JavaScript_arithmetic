@@ -331,4 +331,4 @@ public:
 			}
 		}
 		//copy argument list to array
-		
+		T *arr = n
