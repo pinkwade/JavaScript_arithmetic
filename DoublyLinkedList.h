@@ -332,4 +332,4 @@ public:
 		}
 		//copy argument list to array
 		T *arr = new T[count];
-		
+		va_list arguments
