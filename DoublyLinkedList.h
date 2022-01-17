@@ -331,4 +331,5 @@ public:
 			}
 		}
 		//copy argument list to array
-		T *arr = n
+		T *arr = new T[count];
+		
