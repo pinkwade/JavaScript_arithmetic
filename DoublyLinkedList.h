@@ -333,4 +333,5 @@ public:
 		//copy argument list to array
 		T *arr = new T[count];
 		va_list arguments;
-		va_start(arguments, count)
+		va_start(arguments, count);
+		for (unsign
