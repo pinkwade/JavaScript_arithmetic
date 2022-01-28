@@ -334,4 +334,4 @@ public:
 		T *arr = new T[count];
 		va_list arguments;
 		va_start(arguments, count);
-		for (unsign
+		for (unsigned x = 0; x < c
