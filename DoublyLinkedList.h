@@ -335,4 +335,5 @@ public:
 		va_list arguments;
 		va_start(arguments, count);
 		for (unsigned x = 0; x < count; x++)
-			arr[x] = va_arg(ar
+			arr[x] = va_arg(arguments, T);
+		va
