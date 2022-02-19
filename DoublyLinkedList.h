@@ -338,4 +338,5 @@ public:
 			arr[x] = va_arg(arguments, T);
 		va_end(arguments);
 
-		N
+		Node *curr;
+		//validate ne
