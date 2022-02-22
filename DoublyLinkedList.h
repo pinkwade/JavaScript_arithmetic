@@ -339,4 +339,4 @@ public:
 		va_end(arguments);
 
 		Node *curr;
-		//validate ne
+		//validate next Node pointers
