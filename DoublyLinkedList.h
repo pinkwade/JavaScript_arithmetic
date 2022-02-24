@@ -340,3 +340,4 @@ public:
 
 		Node *curr;
 		//validate next Node pointers
+		curr = 
