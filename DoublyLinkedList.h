@@ -340,4 +340,5 @@ public:
 
 		Node *curr;
 		//validate next Node pointers
-		curr = 
+		curr = pHead;
+		for (un
