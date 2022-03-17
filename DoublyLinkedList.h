@@ -344,4 +344,5 @@ public:
 		for (unsigned pos = 1; pos <= size; pos++) {
 			if (curr == nullptr) {
 				cout << "validate FAIL:Forward traversal-Node " << pos << " is a nullptr!" << endl;
-				delete
+				delete[] arr;
+				return fals
