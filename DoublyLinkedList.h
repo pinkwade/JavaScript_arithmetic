@@ -341,4 +341,5 @@ public:
 		Node *curr;
 		//validate next Node pointers
 		curr = pHead;
-		for (unsigned pos = 1; pos <
+		for (unsigned pos = 1; pos <= size; pos++) {
+	
