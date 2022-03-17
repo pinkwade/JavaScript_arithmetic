@@ -342,4 +342,4 @@ public:
 		//validate next Node pointers
 		curr = pHead;
 		for (unsigned pos = 1; pos <= size; pos++) {
-	
+			if (curr == nullptr)
