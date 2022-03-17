@@ -343,4 +343,4 @@ public:
 		curr = pHead;
 		for (unsigned pos = 1; pos <= size; pos++) {
 			if (curr == nullptr) {
-				cout << "validate FAIL:Forward traversal-Node " << pos 
+				cout << "validate FAIL:Forward traversal-Node " << pos << " is a nullptr!" <<
