@@ -348,3 +348,4 @@ public:
 				return false;
 			}
 			if (curr->data != arr[pos - 1]) {
+				cout << "vali
