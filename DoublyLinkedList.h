@@ -349,4 +349,5 @@ public:
 			}
 			if (curr->data != arr[pos - 1]) {
 				cout << "validate FAIL:Forward node data " << curr->data << " does not match arr data " << arr[pos - 1] << endl;
-				delet
+				delete[] arr;
+				return fa
