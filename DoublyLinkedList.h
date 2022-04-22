@@ -352,4 +352,6 @@ public:
 				delete[] arr;
 				return false;
 			}
-			curr = curr->
+			curr = curr->pNext;
+		}
+		//valida
