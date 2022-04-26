@@ -354,4 +354,5 @@ public:
 			}
 			curr = curr->pNext;
 		}
-		//valida
+		//validate prev Node pointers
+		curr =
