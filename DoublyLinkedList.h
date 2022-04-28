@@ -356,4 +356,4 @@ public:
 		}
 		//validate prev Node pointers
 		curr = pTail;
-		for (unsigned pos = size; p
+		for (unsigned pos = size; pos >= 1; pos--)
