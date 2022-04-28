@@ -355,4 +355,5 @@ public:
 			curr = curr->pNext;
 		}
 		//validate prev Node pointers
-		curr =
+		curr = pTail;
+		for (un
