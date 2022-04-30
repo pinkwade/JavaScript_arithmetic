@@ -358,4 +358,4 @@ public:
 		curr = pTail;
 		for (unsigned pos = size; pos >= 1; pos--) {
 			if (curr == nullptr) {
-				cout << "validate FAIL:Backward traversal-Node " << po
+				cout << "validate FAIL:Backward traversal-Node " << pos << " is a nullptr!" <
