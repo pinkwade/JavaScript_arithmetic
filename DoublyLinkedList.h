@@ -358,3 +358,4 @@ public:
 		curr = pTail;
 		for (unsigned pos = size; pos >= 1; pos--) {
 			if (curr == nullptr) {
+				cout << "vali
