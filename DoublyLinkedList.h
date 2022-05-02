@@ -362,4 +362,4 @@ public:
 				delete[] arr;
 				return false;
 			}
-			if (curr->da
+			if (curr->data != arr[pos - 1]
