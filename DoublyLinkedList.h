@@ -360,4 +360,5 @@ public:
 			if (curr == nullptr) {
 				cout << "validate FAIL:Backward traversal-Node " << pos << " is a nullptr!" << endl;
 				delete[] arr;
-				r
+				return false;
+			}
