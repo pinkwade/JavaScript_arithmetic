@@ -363,4 +363,4 @@ public:
 				return false;
 			}
 			if (curr->data != arr[pos - 1]) {
-				cout << "valid
+				cout << "validate FAIL:Backward node dat
