@@ -362,4 +362,5 @@ public:
 				delete[] arr;
 				return false;
 			}
-			if (curr->data != arr[pos - 1]
+			if (curr->data != arr[pos - 1]) {
+				cout << "valid
