@@ -362,3 +362,4 @@ public:
 				delete[] arr;
 				return false;
 			}
+			if (curr->da
