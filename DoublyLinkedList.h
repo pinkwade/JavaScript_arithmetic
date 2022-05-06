@@ -367,4 +367,4 @@ public:
 				delete[] arr;
 				return false;
 			}
-			
+			curr = curr-
