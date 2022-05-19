@@ -371,3 +371,7 @@ public:
 		}
 		delete[] arr;
 		return true;
+	}
+
+
+};
