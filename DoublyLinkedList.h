@@ -369,4 +369,4 @@ public:
 			}
 			curr = curr->pPrev;
 		}
-		d
+		delete[] ar
