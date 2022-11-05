@@ -16,3 +16,13 @@ private:
 		T value;
 		Node * next;
 	};
+
+	Node *head;
+	Node *tail;
+	unsigned int size;
+
+public:
+
+	LinkedList(): head(NULL), tail(NULL), size(0) {}
+	~LinkedList() 
+	{
