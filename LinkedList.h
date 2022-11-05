@@ -26,3 +26,24 @@ public:
 	LinkedList(): head(NULL), tail(NULL), size(0) {}
 	~LinkedList() 
 	{
+		Node * temp = head, *nextnode;
+		while (temp != NULL)
+		{
+			nextnode = temp->next;
+			delete temp;
+			temp = nextnode;
+		}
+	}
+
+	unsigned int size()const
+	{
+		return size;
+	}
+
+	bool isEmpty()const
+	{
+		return (size == 0);
+	}
+
+	void addHead(T item)
+	{
