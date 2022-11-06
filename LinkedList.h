@@ -47,3 +47,22 @@ public:
 
 	void addHead(T item)
 	{
+		head = new Node(item, head);
+		if (tail == NULL)
+		{
+			tail = head;
+		}
+		size++;
+	}
+
+	T removeHead()
+	{
+		Node* oldNode = head;
+		T returnValue = head->value;
+		head = head->next;
+		if (head == NULL)
+		{
+			tail = NULL;
+		}
+		size--;
+		delete oldNode;
