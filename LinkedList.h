@@ -66,3 +66,30 @@ public:
 		}
 		size--;
 		delete oldNode;
+		return returnValue;
+	}
+
+	T retreiveHead()const
+	{
+		return head->value;
+	}
+
+	void addTail(T item)
+	{
+		if (isEmpty())
+		{
+			addHead(item);
+		}
+		else
+		{
+			tail = tail->next = new Node(item);
+			size++;
+		}
+
+	}
+
+	T removeTail()
+	{
+		if (head == tail)
+		{
+			return removeHead;
