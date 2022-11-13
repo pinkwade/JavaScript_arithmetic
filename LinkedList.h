@@ -124,3 +124,24 @@ public:
 		}
 		else
 		{
+			Node *here = head;
+			for (unsigned int i = 1; i < x - 1; i++)
+			{
+				here = here->next;
+			}
+			here->next = new Node(item, here->next);
+			size++;
+		}
+	}
+
+	T replace(unsigned int x, T item)
+	{
+		T returnValue;
+		Node * here = head;
+		for (unsigned int i = 1; i < x; i++)
+		{
+			here = here->next;
+		}
+		returnValue = here->value;
+		here->value = item;
+		return returnValue;
