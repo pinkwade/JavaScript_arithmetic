@@ -110,3 +110,17 @@ public:
 	T retreiveTail()const
 	{
 		return tail->value;
+	}
+
+	void add(unsigned int x, T item)
+	{
+		if (x == 1)
+		{
+			addHead(item);
+		}
+		else if (x == size() + 1)
+		{
+			addTail(item)
+		}
+		else
+		{
