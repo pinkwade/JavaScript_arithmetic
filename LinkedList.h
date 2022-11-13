@@ -93,3 +93,20 @@ public:
 		if (head == tail)
 		{
 			return removeHead;
+		}
+		Node *preTail = head;
+		T returnValue = tail->value;
+		while (preTail->next != tail)
+		{
+			preTail = preTail->next;
+		}
+		preTail->next = NULL;
+		delete tail;
+		tail = preTail;
+		size--;
+		return returnValue;
+	}
+
+	T retreiveTail()const
+	{
+		return tail->value;
