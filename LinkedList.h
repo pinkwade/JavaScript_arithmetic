@@ -162,3 +162,21 @@ public:
 		{
 			here = here->next;
 		}
+		Node * terminate = here->next;
+		T returnValue = terminate->value;
+		here->next = terminate->next;
+		delete terminate;
+		size--;
+		return returnValue;
+	}
+
+	T retreive(unsigned int x)const
+	{
+		if (x == 1)
+		{
+			return retrieveHead();
+		}
+		if (x == size())
+		{
+			return retrieveTail();
+		}
