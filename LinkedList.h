@@ -145,3 +145,20 @@ public:
 		returnValue = here->value;
 		here->value = item;
 		return returnValue;
+	}
+
+	T remove(unsigned int x)
+	{
+		if (x == 1)
+		{
+			return removeHead;
+		}
+		if (x == size())
+		{
+			return removeTail;
+		}
+		Node * here = head;
+		for (unsigned int i = 1; i < x - 1; i++)
+		{
+			here = here->next;
+		}
