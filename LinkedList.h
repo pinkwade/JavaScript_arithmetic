@@ -180,3 +180,11 @@ public:
 		{
 			return retrieveTail();
 		}
+		Node * here = head;
+		for (unsigned int i = 1; i < x; i++)
+		{
+			here = here->next;
+		}
+		return here->value;
+	}
+};
