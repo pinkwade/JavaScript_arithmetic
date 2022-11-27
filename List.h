@@ -31,3 +31,18 @@ public:
 	{
 		delete[] container;
 	}
+
+	bool isEmpty()const
+	{
+		return (size == 0);
+	}
+
+	bool isFull()const
+	{
+		return (size == maxCapacity);
+	}
+
+	unsigned getLength()const
+	{
+		return size;
+	}
