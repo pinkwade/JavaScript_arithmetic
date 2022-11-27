@@ -65,3 +65,25 @@ public:
 		{
 			container[translate(i)] = container[i];
 		}
+		size--;
+		return returnedValue;
+	}
+
+	T replace(unsigned pos, T item)
+	{
+		T returnedValue = container[translate(pos)];
+		container[translate(pos)] = item;
+		return returnedValue;
+	}
+
+	T retreive(unsigned pos)const
+	{
+		return container[translate(pos)];
+	}
+
+	void swap(unsigned i, unsigned j)
+	{
+		if (i == j) return;
+		unsigned temp = container[translate(i)];
+		container[translate(i)] = container[translate(j)];
+		container[translate(j)] = temp;
