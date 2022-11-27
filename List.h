@@ -46,3 +46,22 @@ public:
 	{
 		return size;
 	}
+
+	void insert(unsigned pos, T item)
+	{
+		
+		for (int i = size; i >= pos; i--)
+		{
+			container[translate(i+1)] = container[translate(i)];
+		}
+		container[translate(pos)] = item;
+		size++;
+	}
+
+	T remove(unsigned pos)
+	{
+		T returnedValue = container[translate(pos)];
+		for (int i = pos; i <= size; i++)
+		{
+			container[translate(i)] = container[i];
+		}
