@@ -87,3 +87,5 @@ public:
 		unsigned temp = container[translate(i)];
 		container[translate(i)] = container[translate(j)];
 		container[translate(j)] = temp;
+	}
+};
