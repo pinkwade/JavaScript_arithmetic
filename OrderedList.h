@@ -59,3 +59,12 @@ public:
 		for (i = 1; i <= getLength(); i++)
 		{
 			if (item == retreive(i))
+			{
+				return i;
+			}
+		}
+		return -1;
+
+
+	}
+};
