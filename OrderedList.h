@@ -34,3 +34,28 @@ public:
 
 	T retreive(unsigned pos) const
 	{
+		return container.retreive(pos);
+
+	}
+
+	int insert(T item)
+	{
+		int i;
+		for (i = 1; i <= getLength(); i++)
+		{
+			//Less than sign makes the list in ascending order, change it to a greater than symbol to make it a list in descending order
+			if (item < retreive(i))
+			{
+				break;
+			}
+		}
+		container.insert(i, item);
+		return i;
+	}
+
+	int find(T item)
+	{
+		int i;
+		for (i = 1; i <= getLength(); i++)
+		{
+			if (item == retreive(i))
