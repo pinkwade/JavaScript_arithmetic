@@ -41,3 +41,14 @@ private:
 public:
 	Cat() {}
 	~Cat() { cout << "Cat has died" << endl; }
+
+	virtual void buyCollar(string name)
+	{
+		// set name of the collar
+		catCollar.setName(name);
+	}
+
+	void getName()
+	{
+		cout << catCollar.getName() << endl;
+	}
