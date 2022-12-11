@@ -72,3 +72,11 @@ int main()
 
 	// would using animalPointer give you the same outut? will it run?
 	animalPointer->speak();
+
+	// what does this statement output?
+	delete animalPointer;
+
+
+
+	system("PAUSE");
+}
