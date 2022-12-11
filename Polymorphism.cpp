@@ -52,3 +52,23 @@ public:
 	{
 		cout << catCollar.getName() << endl;
 	}
+
+	virtual void speak() { cout << "Helloooo!!" << endl; }
+};
+
+
+int main()
+{
+	// Is this legal?
+	Animal *animalPointer = new Cat;
+	Cat *catPointer;
+
+	catPointer = static_cast<Cat *>(animalPointer);
+	catPointer->speak();
+
+	// set the cats name
+	catPointer->buyCollar("Cyriacs'Gay");
+	catPointer->getName();
+
+	// would using animalPointer give you the same outut? will it run?
+	animalPointer->speak();
