@@ -2,4 +2,7 @@
 #include "List.h"
 #include <iostream>
 #include <string>
-using namespace s
+using namespace std;
+
+template <class T>
+c
