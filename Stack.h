@@ -5,4 +5,7 @@
 using namespace std;
 
 template <class T>
-c
+class Stack
+{
+private:
+	L
