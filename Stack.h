@@ -8,4 +8,8 @@ template <class T>
 class Stack
 {
 private:
-	List<T> container
+	List<T> container;
+
+public:
+
+	Stack(u
