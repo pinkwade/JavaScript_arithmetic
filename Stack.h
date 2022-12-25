@@ -12,4 +12,5 @@ private:
 
 public:
 
-	Stack(unsigned capacity): contai
+	Stack(unsigned capacity): container(capacity) {}
+	~St
