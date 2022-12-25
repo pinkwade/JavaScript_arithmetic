@@ -13,4 +13,6 @@ private:
 public:
 
 	Stack(unsigned capacity): container(capacity) {}
-	~St
+	~Stack() {}
+
+	bool isEmpty()co
