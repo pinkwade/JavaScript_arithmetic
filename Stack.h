@@ -15,4 +15,6 @@ public:
 	Stack(unsigned capacity): container(capacity) {}
 	~Stack() {}
 
-	bool isEmpty()co
+	bool isEmpty()const
+	{
+		return con
