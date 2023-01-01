@@ -17,4 +17,4 @@ public:
 
 	bool isEmpty()const
 	{
-		return con
+		return container.isEmp
