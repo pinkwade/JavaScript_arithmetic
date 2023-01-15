@@ -22,4 +22,7 @@ public:
 
 	bool isFull()const
 	{
-		return containe
+		return container.isFull();
+	}
+
+	unsign
