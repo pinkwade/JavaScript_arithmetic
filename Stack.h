@@ -22,4 +22,4 @@ public:
 
 	bool isFull()const
 	{
-		
+		return containe
