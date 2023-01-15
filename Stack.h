@@ -20,4 +20,6 @@ public:
 		return container.isEmpty();
 	}
 
-	bool i
+	bool isFull()const
+	{
+		
