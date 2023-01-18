@@ -25,4 +25,4 @@ public:
 		return container.isFull();
 	}
 
-	unsign
+	unsigned size()const
