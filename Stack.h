@@ -26,3 +26,5 @@ public:
 	}
 
 	unsigned size()const
+	{
+		return cont
