@@ -30,4 +30,6 @@ public:
 		return container.getLength();
 	}
 
-	void p
+	void push(T x)
+	{
+		co
