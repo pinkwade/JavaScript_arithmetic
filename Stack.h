@@ -27,4 +27,4 @@ public:
 
 	unsigned size()const
 	{
-		return cont
+		return container.getLength
