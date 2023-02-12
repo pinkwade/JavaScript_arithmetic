@@ -32,4 +32,4 @@ public:
 
 	void push(T x)
 	{
-		co
+		container.insert
