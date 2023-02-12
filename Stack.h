@@ -27,4 +27,7 @@ public:
 
 	unsigned size()const
 	{
-		return container.getLength
+		return container.getLength();
+	}
+
+	void p
