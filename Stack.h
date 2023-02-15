@@ -32,4 +32,6 @@ public:
 
 	void push(T x)
 	{
-		container.insert
+		container.insert(size() + 1, x);
+	}
+
