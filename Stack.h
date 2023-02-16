@@ -37,4 +37,4 @@ public:
 
 	T pop()
 	{
-		r
+		return container.re
