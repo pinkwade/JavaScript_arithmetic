@@ -37,4 +37,8 @@ public:
 
 	T pop()
 	{
-		return container.remove(size())
+		return container.remove(size());
+	}
+
+	T peek()const
+	{
