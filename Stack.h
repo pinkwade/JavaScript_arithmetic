@@ -35,3 +35,6 @@ public:
 		container.insert(size() + 1, x);
 	}
 
+	T pop()
+	{
+		r
