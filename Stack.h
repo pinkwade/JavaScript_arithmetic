@@ -37,4 +37,4 @@ public:
 
 	T pop()
 	{
-		return container.re
+		return container.remove(size())
