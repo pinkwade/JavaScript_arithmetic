@@ -42,4 +42,6 @@ public:
 
 	T peek()const
 	{
-		return container.retreive(size(
+		return container.retreive(size());
+	}
+};
