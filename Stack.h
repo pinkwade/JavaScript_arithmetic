@@ -42,3 +42,4 @@ public:
 
 	T peek()const
 	{
+		return containe
