@@ -8,4 +8,5 @@ int main(char argc, char* argv[])
 {
 	int a, b;
 	List<int> Test(10);
-	Test.
+	Test.insert(1,20);
+	a
