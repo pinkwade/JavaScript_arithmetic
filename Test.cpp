@@ -4,4 +4,5 @@
 #include "OrderedList.h"
 using namespace std;
 
-int main(char argc
+int main(char argc, char* argv[])
+{
