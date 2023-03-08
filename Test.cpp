@@ -6,3 +6,5 @@ using namespace std;
 
 int main(char argc, char* argv[])
 {
+	int a, b;
+	List
