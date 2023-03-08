@@ -7,4 +7,5 @@ using namespace std;
 int main(char argc, char* argv[])
 {
 	int a, b;
-	List
+	List<int> Test(10);
+	Test.
