@@ -10,4 +10,5 @@ int main(char argc, char* argv[])
 	List<int> Test(10);
 	Test.insert(1,20);
 	a = Test.getLength();
-	b = Test.retreive(1
+	b = Test.retreive(1);
+	cout << "Lengt
