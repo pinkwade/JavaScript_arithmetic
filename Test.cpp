@@ -11,4 +11,4 @@ int main(char argc, char* argv[])
 	Test.insert(1,20);
 	a = Test.getLength();
 	b = Test.retreive(1);
-	cout << "Lengt
+	cout << "Length: " << a << endl;
