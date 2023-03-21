@@ -12,4 +12,7 @@ int main(char argc, char* argv[])
 	a = Test.getLength();
 	b = Test.retreive(1);
 	cout << "Length: " << a << endl;
-	cout << "Inserted number: " << b 
+	cout << "Inserted number: " << b << endl;
+
+
+	int 
