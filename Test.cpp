@@ -15,4 +15,5 @@ int main(char argc, char* argv[])
 	cout << "Inserted number: " << b << endl;
 
 
-	int arr[] = { 7, 3, 5, 
+	int arr[] = { 7, 3, 5, 9, 4 };
+	OrderedList<
