@@ -16,4 +16,6 @@ int main(char argc, char* argv[])
 
 
 	int arr[] = { 7, 3, 5, 9, 4 };
-	OrderedList<
+	OrderedList<int> olist;
+
+	for (int k
