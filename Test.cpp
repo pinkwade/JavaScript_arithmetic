@@ -15,4 +15,4 @@ int main(char argc, char* argv[])
 	cout << "Inserted number: " << b << endl;
 
 
-	int 
+	int arr[] = { 7, 3, 5, 
