@@ -20,4 +20,6 @@ int main(char argc, char* argv[])
 
 	for (int k = 0; k < 5; k++)
 	{
-		olist.insert
+		olist.insert(arr[k]);
+	}
+	cout
