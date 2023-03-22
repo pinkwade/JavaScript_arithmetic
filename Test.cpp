@@ -18,4 +18,6 @@ int main(char argc, char* argv[])
 	int arr[] = { 7, 3, 5, 9, 4 };
 	OrderedList<int> olist;
 
-	for (int k = 0; k < 5; k
+	for (int k = 0; k < 5; k++)
+	{
+		olist.insert
