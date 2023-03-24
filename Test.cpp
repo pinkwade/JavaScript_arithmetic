@@ -22,4 +22,4 @@ int main(char argc, char* argv[])
 	{
 		olist.insert(arr[k]);
 	}
-	cout
+	cout << "Ordered 
