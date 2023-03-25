@@ -22,4 +22,5 @@ int main(char argc, char* argv[])
 	{
 		olist.insert(arr[k]);
 	}
-	cout << "Ordered 
+	cout << "Ordered List: ";
+	for (int k
