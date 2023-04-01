@@ -24,3 +24,5 @@ int main(char argc, char* argv[])
 	}
 	cout << "Ordered List: ";
 	for (int k = 1; k <= 5; k++)
+	{
+		cout << ol
