@@ -28,3 +28,5 @@ int main(char argc, char* argv[])
 		cout << olist.retreive(k);
 	}
 	cout << endl;
+	system("PAUSE");
+}
